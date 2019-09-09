@@ -1,0 +1,54 @@
+/* Setting fade transition and default settings */
+body {
+    color: white;
+    background-color: rgb(54, 54, 241);
+    transition: background-color 1s ease;
+  }
+  
+  /* panel styles */
+  .panel {
+    /* min height incase content is higher than window height */
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    /* outline: 10px solid hotpink; */
+    /* turn above on to see the edge of panels */
+  }
+  
+  /* colours */
+  .color-beautiful {
+    background-color: #03B2D1;
+  }
+  .color-challenge {
+    background-color: #2C3C4D;
+  }
+  .color-ownership {
+    background-color: #F37021;
+  }
+  .color-human {
+    background-color: #ED0677;
+  }
+  .color-champion {
+    background-color: #48B749;
+  }
+  
+  /* styling for demo, can ignore */
+  body {
+    text-align: center;
+    font-size: 120%;
+    line-height: 1.618;
+  }
+  h1, h2 {
+    font-size: 3em;
+    letter-spacing: -0.05em;
+    line-height: 1.1;
+  }
+  p {
+    max-width: 30em;
+    margin-bottom: 1.618em;
+  }
+  a {
+    color: #4332CF;
+  } 
