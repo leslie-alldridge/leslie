@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href='styles.css'></link>
+    <link rel="stylesheet" href='styles.css'/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -9,16 +10,34 @@
   </head>
   <body>
         <div class="panel" data-color="white">
-                <div>
+                <div data-aos="slide-up">
                   <h1>Leslie Alldridge - September 2019</h1>
                   <p>Monthly 1:1 template, scroll to view more.</p>
               </div>
             </div>
             <div class="panel" data-color="beautiful">
+                <div>
               <h2>Highlights  # Beautiful</h2>
+              <h4>Highlights over the last month were:</h4>
+                <p data-aos-duration="2000" data-aos-anchor-placement="center-center" data-aos="flip-up" data-aos-offset="200" id="point">
+                      Having new people leads join our team
+                </p>
+                <p data-aos-duration="2000" data-aos-anchor-placement="center-center" data-aos="flip-up" data-aos-offset="200" id="point">Putting a plan in place to relieve some PagerDuty toil</p>
+                <p data-aos-duration="2000" data-aos-anchor-placement="center-center" data-aos="flip-up" data-aos-offset="200" id="point">Showing interest in other people and pods to understand their work</p>
+                <p data-aos-duration="2000" data-aos-anchor-placement="center-center" data-aos="flip-up" data-aos-offset="200" id="point">Confidence to code a solution no matter what the problem</p>
+            </div>
             </div>
             <div class="panel" data-color="challenge">
+                <div>
               <h2>Barriers  # Challenge</h2>
+              <p data-aos-duration="2000" data-aos-anchor-placement="center-center" data-aos="flip-up" data-aos-offset="200" id="point">
+                    Having new people leads join our team
+              </p>
+              <p data-aos-duration="2000" data-aos-anchor-placement="center-center" data-aos="flip-up" data-aos-offset="200" id="point">Putting a plan in place to relieve some PagerDuty toil</p>
+              <p data-aos-duration="2000" data-aos-anchor-placement="center-center" data-aos="flip-up" data-aos-offset="200" id="point">Showing interest in other people and pods to understand their work</p>
+              <p data-aos-duration="2000" data-aos-anchor-placement="center-center" data-aos="flip-up" data-aos-offset="200" id="point">Confidence to code a solution no matter what the problem</p>
+         
+            </div>
             </div>
             <div class="panel" data-color="human">
               <h2>Working On  # Human</h2>
@@ -35,8 +54,19 @@
             <div class="panel" data-color="ownership">
               <h2>Development  # Ownership</h2>
             </div>
+            <div class="panel" data-color="white">
+                    <div>
+                      <h1>Thanks for viewing!</h1>
+                      <p>I hope you enjoyed the journey.</p>
+                  </div>
+                </div>
             
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
     <script src='./script.js'></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      console.log('running')
+      AOS.init();
+    </script>
   </body>
 </html>
