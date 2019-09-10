@@ -16,11 +16,23 @@ body {
     /* outline: 10px solid hotpink; */
     /* turn above on to see the edge of panels */
   }
+
+  .watermark {
+    background:url('./b.PNG');
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+  }
   
   /* colours */
   .color-beautiful {
     background-color: #03B2D1;
-  }
+    
+    }
   .color-challenge {
     background-color: #2C3C4D;
   }
