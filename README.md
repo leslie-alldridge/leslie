@@ -1,6 +1,5 @@
-# leslie-goals-2019
-leslie-goals-2019
+# leslie-goals
 
-
-
-need month by month ability - trying sub folder
+Latest changes:
+- December added
+- Sub folder added
